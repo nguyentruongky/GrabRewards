@@ -24,7 +24,6 @@
 		269A1ADF222CC79900F22F2D /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AC5222CC79800F22F2D /* KMPlaceholderTextView.swift */; };
 		269A1AE0222CC79900F22F2D /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AC6222CC79800F22F2D /* UIButtonExtension.swift */; };
 		269A1AE1222CC79900F22F2D /* knUIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AC7222CC79800F22F2D /* knUIMaker.swift */; };
-		269A1AE2222CC79900F22F2D /* ServiceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AC8222CC79800F22F2D /* ServiceConnector.swift */; };
 		269A1AE3222CC79900F22F2D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AC9222CC79800F22F2D /* StringExtension.swift */; };
 		269A1AE4222CC79900F22F2D /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1ACA222CC79800F22F2D /* UISearchBarExtension.swift */; };
 		269A1AE5222CC79900F22F2D /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1ACB222CC79800F22F2D /* IntExtension.swift */; };
@@ -62,7 +61,6 @@
 		269A1AC5222CC79800F22F2D /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPlaceholderTextView.swift; sourceTree = "<group>"; };
 		269A1AC6222CC79800F22F2D /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		269A1AC7222CC79800F22F2D /* knUIMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
-		269A1AC8222CC79800F22F2D /* ServiceConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConnector.swift; sourceTree = "<group>"; };
 		269A1AC9222CC79800F22F2D /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		269A1ACA222CC79800F22F2D /* UISearchBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
 		269A1ACB222CC79800F22F2D /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 				269A1AD4222CC79900F22F2D /* knView.swift */,
 				269A1ABE222CC79800F22F2D /* NavigationExtension.swift */,
 				269A1ACD222CC79900F22F2D /* OtherExtensions.swift */,
-				269A1AC8222CC79800F22F2D /* ServiceConnector.swift */,
 				269A1AC9222CC79800F22F2D /* StringExtension.swift */,
 				269A1AC4222CC79800F22F2D /* UIApplicationExtension.swift */,
 				269A1AC6222CC79800F22F2D /* UIButtonExtension.swift */,
@@ -172,7 +169,6 @@
 				8B7C4660FBAE86BF87FBF9B1 /* Pods-GrabRewards.debug.xcconfig */,
 				B7B869ED33AD6C013DA15CA2 /* Pods-GrabRewards.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -320,7 +316,6 @@
 				269A1AD8222CC79900F22F2D /* NavigationExtension.swift in Sources */,
 				269A1AA9222CC73500F22F2D /* AppDelegate.swift in Sources */,
 				269A1AEF222CC79900F22F2D /* UIImageExtension.swift in Sources */,
-				269A1AE2222CC79900F22F2D /* ServiceConnector.swift in Sources */,
 				269A1AE6222CC79900F22F2D /* UIViewControllerExtension.swift in Sources */,
 				269A1ADC222CC79900F22F2D /* 1.StartPoint.swift in Sources */,
 				269A1AD6222CC79900F22F2D /* knController.swift in Sources */,
