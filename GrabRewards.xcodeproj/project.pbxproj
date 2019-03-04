@@ -12,6 +12,33 @@
 		269A1AAE222CC73500F22F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269A1AAC222CC73500F22F2D /* Main.storyboard */; };
 		269A1AB0222CC73700F22F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269A1AAF222CC73700F22F2D /* Assets.xcassets */; };
 		269A1AB3222CC73700F22F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269A1AB1222CC73700F22F2D /* LaunchScreen.storyboard */; };
+		269A1B0D222CC90200F22F2D /* NavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF3222CC90100F22F2D /* NavigationExtension.swift */; };
+		269A1B0E222CC90200F22F2D /* ServiceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF4222CC90100F22F2D /* ServiceConnector.swift */; };
+		269A1B0F222CC90200F22F2D /* 1.StartPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF5222CC90100F22F2D /* 1.StartPoint.swift */; };
+		269A1B10222CC90200F22F2D /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF6222CC90100F22F2D /* DeviceType.swift */; };
+		269A1B11222CC90200F22F2D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF7222CC90100F22F2D /* UIColorExtension.swift */; };
+		269A1B12222CC90200F22F2D /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF8222CC90100F22F2D /* UIButtonExtension.swift */; };
+		269A1B13222CC90200F22F2D /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AF9222CC90100F22F2D /* IntExtension.swift */; };
+		269A1B14222CC90200F22F2D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AFA222CC90100F22F2D /* StringExtension.swift */; };
+		269A1B15222CC90200F22F2D /* knView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AFB222CC90100F22F2D /* knView.swift */; };
+		269A1B16222CC90200F22F2D /* knGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AFC222CC90100F22F2D /* knGridView.swift */; };
+		269A1B17222CC90200F22F2D /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AFD222CC90100F22F2D /* KMPlaceholderTextView.swift */; };
+		269A1B18222CC90200F22F2D /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AFE222CC90100F22F2D /* DateExtension.swift */; };
+		269A1B19222CC90200F22F2D /* 1.Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1AFF222CC90100F22F2D /* 1.Setting.swift */; };
+		269A1B1A222CC90200F22F2D /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B00222CC90200F22F2D /* UIApplicationExtension.swift */; };
+		269A1B1B222CC90200F22F2D /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B01222CC90200F22F2D /* UITextFieldExtension.swift */; };
+		269A1B1C222CC90200F22F2D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B02222CC90200F22F2D /* UIImageExtension.swift */; };
+		269A1B1D222CC90200F22F2D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B03222CC90200F22F2D /* UIViewControllerExtension.swift */; };
+		269A1B1E222CC90200F22F2D /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B04222CC90200F22F2D /* UIFontExtension.swift */; };
+		269A1B1F222CC90200F22F2D /* knUIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B05222CC90200F22F2D /* knUIMaker.swift */; };
+		269A1B20222CC90200F22F2D /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B06222CC90200F22F2D /* knConstraints.swift */; };
+		269A1B21222CC90200F22F2D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B07222CC90200F22F2D /* UIViewExtension.swift */; };
+		269A1B22222CC90200F22F2D /* knController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B08222CC90200F22F2D /* knController.swift */; };
+		269A1B23222CC90200F22F2D /* knListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B09222CC90200F22F2D /* knListView.swift */; };
+		269A1B24222CC90200F22F2D /* OtherExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B0A222CC90200F22F2D /* OtherExtensions.swift */; };
+		269A1B25222CC90200F22F2D /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B0B222CC90200F22F2D /* UISearchBarExtension.swift */; };
+		269A1B26222CC90200F22F2D /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B0C222CC90200F22F2D /* General.swift */; };
+		269A1B29222CC97D00F22F2D /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269A1B28222CC97D00F22F2D /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +49,33 @@
 		269A1AAF222CC73700F22F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		269A1AB2222CC73700F22F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269A1AB4222CC73700F22F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269A1AF3222CC90100F22F2D /* NavigationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationExtension.swift; sourceTree = "<group>"; };
+		269A1AF4222CC90100F22F2D /* ServiceConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConnector.swift; sourceTree = "<group>"; };
+		269A1AF5222CC90100F22F2D /* 1.StartPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1.StartPoint.swift; sourceTree = "<group>"; };
+		269A1AF6222CC90100F22F2D /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		269A1AF7222CC90100F22F2D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		269A1AF8222CC90100F22F2D /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		269A1AF9222CC90100F22F2D /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		269A1AFA222CC90100F22F2D /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		269A1AFB222CC90100F22F2D /* knView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knView.swift; sourceTree = "<group>"; };
+		269A1AFC222CC90100F22F2D /* knGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knGridView.swift; sourceTree = "<group>"; };
+		269A1AFD222CC90100F22F2D /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPlaceholderTextView.swift; sourceTree = "<group>"; };
+		269A1AFE222CC90100F22F2D /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		269A1AFF222CC90100F22F2D /* 1.Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1.Setting.swift; sourceTree = "<group>"; };
+		269A1B00222CC90200F22F2D /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		269A1B01222CC90200F22F2D /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		269A1B02222CC90200F22F2D /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		269A1B03222CC90200F22F2D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		269A1B04222CC90200F22F2D /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		269A1B05222CC90200F22F2D /* knUIMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
+		269A1B06222CC90200F22F2D /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
+		269A1B07222CC90200F22F2D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		269A1B08222CC90200F22F2D /* knController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knController.swift; sourceTree = "<group>"; };
+		269A1B09222CC90200F22F2D /* knListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knListView.swift; sourceTree = "<group>"; };
+		269A1B0A222CC90200F22F2D /* OtherExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExtensions.swift; sourceTree = "<group>"; };
+		269A1B0B222CC90200F22F2D /* UISearchBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
+		269A1B0C222CC90200F22F2D /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		269A1B28222CC97D00F22F2D /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +108,49 @@
 		269A1AA7222CC73500F22F2D /* GrabRewards */ = {
 			isa = PBXGroup;
 			children = (
+				269A1B27222CC90B00F22F2D /* must_have */,
 				269A1AA8222CC73500F22F2D /* AppDelegate.swift */,
 				269A1AAA222CC73500F22F2D /* ViewController.swift */,
+				269A1B28222CC97D00F22F2D /* CategoryView.swift */,
 				269A1AAC222CC73500F22F2D /* Main.storyboard */,
 				269A1AAF222CC73700F22F2D /* Assets.xcassets */,
 				269A1AB1222CC73700F22F2D /* LaunchScreen.storyboard */,
 				269A1AB4222CC73700F22F2D /* Info.plist */,
 			);
 			path = GrabRewards;
+			sourceTree = "<group>";
+		};
+		269A1B27222CC90B00F22F2D /* must_have */ = {
+			isa = PBXGroup;
+			children = (
+				269A1B07222CC90200F22F2D /* UIViewExtension.swift */,
+				269A1AFF222CC90100F22F2D /* 1.Setting.swift */,
+				269A1AF5222CC90100F22F2D /* 1.StartPoint.swift */,
+				269A1AFE222CC90100F22F2D /* DateExtension.swift */,
+				269A1AF6222CC90100F22F2D /* DeviceType.swift */,
+				269A1B0C222CC90200F22F2D /* General.swift */,
+				269A1AF9222CC90100F22F2D /* IntExtension.swift */,
+				269A1AFD222CC90100F22F2D /* KMPlaceholderTextView.swift */,
+				269A1B06222CC90200F22F2D /* knConstraints.swift */,
+				269A1B08222CC90200F22F2D /* knController.swift */,
+				269A1AFC222CC90100F22F2D /* knGridView.swift */,
+				269A1B09222CC90200F22F2D /* knListView.swift */,
+				269A1B05222CC90200F22F2D /* knUIMaker.swift */,
+				269A1AFB222CC90100F22F2D /* knView.swift */,
+				269A1AF3222CC90100F22F2D /* NavigationExtension.swift */,
+				269A1B0A222CC90200F22F2D /* OtherExtensions.swift */,
+				269A1AF4222CC90100F22F2D /* ServiceConnector.swift */,
+				269A1AFA222CC90100F22F2D /* StringExtension.swift */,
+				269A1B00222CC90200F22F2D /* UIApplicationExtension.swift */,
+				269A1AF8222CC90100F22F2D /* UIButtonExtension.swift */,
+				269A1AF7222CC90100F22F2D /* UIColorExtension.swift */,
+				269A1B04222CC90200F22F2D /* UIFontExtension.swift */,
+				269A1B02222CC90200F22F2D /* UIImageExtension.swift */,
+				269A1B0B222CC90200F22F2D /* UISearchBarExtension.swift */,
+				269A1B01222CC90200F22F2D /* UITextFieldExtension.swift */,
+				269A1B03222CC90200F22F2D /* UIViewControllerExtension.swift */,
+			);
+			path = must_have;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +224,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269A1B15222CC90200F22F2D /* knView.swift in Sources */,
+				269A1B18222CC90200F22F2D /* DateExtension.swift in Sources */,
+				269A1B22222CC90200F22F2D /* knController.swift in Sources */,
+				269A1B19222CC90200F22F2D /* 1.Setting.swift in Sources */,
+				269A1B23222CC90200F22F2D /* knListView.swift in Sources */,
+				269A1B16222CC90200F22F2D /* knGridView.swift in Sources */,
 				269A1AAB222CC73500F22F2D /* ViewController.swift in Sources */,
+				269A1B1C222CC90200F22F2D /* UIImageExtension.swift in Sources */,
+				269A1B1E222CC90200F22F2D /* UIFontExtension.swift in Sources */,
+				269A1B1B222CC90200F22F2D /* UITextFieldExtension.swift in Sources */,
+				269A1B24222CC90200F22F2D /* OtherExtensions.swift in Sources */,
+				269A1B12222CC90200F22F2D /* UIButtonExtension.swift in Sources */,
+				269A1B1A222CC90200F22F2D /* UIApplicationExtension.swift in Sources */,
+				269A1B17222CC90200F22F2D /* KMPlaceholderTextView.swift in Sources */,
+				269A1B14222CC90200F22F2D /* StringExtension.swift in Sources */,
+				269A1B11222CC90200F22F2D /* UIColorExtension.swift in Sources */,
+				269A1B0E222CC90200F22F2D /* ServiceConnector.swift in Sources */,
+				269A1B1F222CC90200F22F2D /* knUIMaker.swift in Sources */,
 				269A1AA9222CC73500F22F2D /* AppDelegate.swift in Sources */,
+				269A1B13222CC90200F22F2D /* IntExtension.swift in Sources */,
+				269A1B10222CC90200F22F2D /* DeviceType.swift in Sources */,
+				269A1B1D222CC90200F22F2D /* UIViewControllerExtension.swift in Sources */,
+				269A1B29222CC97D00F22F2D /* CategoryView.swift in Sources */,
+				269A1B25222CC90200F22F2D /* UISearchBarExtension.swift in Sources */,
+				269A1B21222CC90200F22F2D /* UIViewExtension.swift in Sources */,
+				269A1B0D222CC90200F22F2D /* NavigationExtension.swift in Sources */,
+				269A1B0F222CC90200F22F2D /* 1.StartPoint.swift in Sources */,
+				269A1B26222CC90200F22F2D /* General.swift in Sources */,
+				269A1B20222CC90200F22F2D /* knConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
