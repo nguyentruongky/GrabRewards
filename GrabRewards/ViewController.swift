@@ -14,9 +14,9 @@ class ViewController: knStaticListController {
         setupView()
     }
 
+    let categoryView = CategoryView()
     let forMeReward = RewardView(title: "Just for you")
     let limitRewards = RewardView(title: "Limit rewards")
-    let categoryView = CategoryView()
     
     override func setupView() {
         view.addSubviews(views: tableView)
@@ -26,11 +26,9 @@ class ViewController: knStaticListController {
         
         let forMeCell = knTableCell.wrap(view: forMeReward, space: UIEdgeInsets(bottom: 12))
         forMeCell.backgroundColor = .lightGray
-//        forMeReward.backgroundColor = .white
         
         let limitCell = knTableCell.wrap(view: limitRewards, space: UIEdgeInsets(bottom: 12))
         limitCell.backgroundColor = .lightGray
-//        limitRewards.backgroundColor = .white
         
         datasource = [categoryCell, forMeCell, limitCell]
         
