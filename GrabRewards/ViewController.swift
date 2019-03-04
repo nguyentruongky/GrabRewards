@@ -17,6 +17,8 @@ class ViewController: knStaticListController {
     let categoryView = CategoryView()
     
     override func setupView() {
+        view.addSubviews(views: tableView)
+        tableView.fill(toView: view)
         let categoryCell = knTableCell.wrap(view: categoryView)
         
         datasource = [categoryCell]

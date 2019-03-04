@@ -9,7 +9,7 @@
 import UIKit
 
 let padding: CGFloat = 24
-
+private let viewHeight: CGFloat = 150
 struct Category {
     var icon: String?
     var name: String?
@@ -35,18 +35,26 @@ class CategoryView: knView {
         collectionView.dataSource = self
         collectionView.register(CategoryCollectionCell.self,
                                 forCellWithReuseIdentifier: "CategoryCollectionCell")
+        collectionView.contentInset = UIEdgeInsets(left: padding / 2, right: padding / 2)
+        addSubviews(views: collectionView)
+        collectionView.fill(toView: self)
+        collectionView.height(viewHeight)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { return datasource.count }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCollectionCell", for: indexPath) as! CategoryCollectionCell
         cell.data = datasource[indexPath.row]
+        cell.backgroundColor = .green
         return cell
     }
+    
+}
+
+extension CategoryView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 66, height: 66)
+        return CGSize(width: 96, height: viewHeight)
     }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat { return 0 }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
@@ -60,7 +68,10 @@ class CategoryCollectionCell: UICollectionViewCell {
     
     var data: Category? {
         didSet {
-            iconImageView.image = UIImage(named: data?.icon)
+            if let icon = data?.icon {
+                iconImageView.image = UIImage(named: icon)
+            }
+            
             nameLabel.text = data?.name
         }
     }
@@ -76,14 +87,19 @@ class CategoryCollectionCell: UICollectionViewCell {
     }
     
     func setupView() {
-        addSubviews(views: iconImageView, nameLabel)
+        let iconWrapper = UIMaker.makeView()
+        iconWrapper.addSubviews(views: iconImageView)
+        iconImageView.square(edge: 32)
+        iconImageView.center(toView: iconWrapper)
+        addSubviews(views: iconWrapper, nameLabel)
         
-        iconImageView.square(edge: 48)
-        iconImageView.backgroundColor = .lightGray
-        iconImageView.top(toView: self, space: padding)
-        iconImageView.centerX(toView: self)
+        iconWrapper.setCorner(radius: 36)
+        iconWrapper.square()
+        iconWrapper.horizontal(toView: self, space: padding / 2)
+        iconWrapper.backgroundColor = .lightGray
+        iconWrapper.top(toView: self, space: padding)
         
-        nameLabel.horizontal(toView: self, space: padding)
-        nameLabel.bottom(toView: self, space: -padding)
+        nameLabel.horizontal(toView: self, space: padding / 2)
+        nameLabel.verticalSpacing(toView: iconWrapper, space: padding / 2)
     }
 }
